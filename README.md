@@ -1,5 +1,3 @@
-<img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/37f54ca2-4929-439a-9220-fc942b0334ae" /># Tugas Analisis Statistik: Deskriptif, Korelasi, dan Regresi
-
 ## 1. Informasi Penyusun
 
 - **Nama:** NI MADE LIANA PRADNYADIANI
