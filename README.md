@@ -79,8 +79,8 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
   - Nilai p-value = 1,497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
   - Nilai p-value yang jauh di bawah 0,05 menunjukan kalau data pendapatan tahunan tidak berdistribusi normal. Dengan kata lain, pola datanya tidak ngikutin bentuk lonceng yang ideal.
-  - Ini penting untuk diperhatikan karena beberapa analisis statistik biasanya ngasumsikan data normal. Jadi, dari hasil ini bisa dibilang kalau data pendapatan startup punya sebaran
-  - yang tidak simetris dan mungkin dipengaruhi sama nilai-nilai ekstrem.
+    Ini penting untuk diperhatikan karena beberapa analisis statistik biasanya ngasumsikan data normal. Jadi, dari hasil ini bisa dibilang kalau data pendapatan startup punya sebaran
+    yang tidak simetris dan mungkin dipengaruhi sama nilai-nilai ekstrem.
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
   - <img width="1366" height="768" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/b5e1c2f9-62eb-40e2-9556-73d7350943d3" />
