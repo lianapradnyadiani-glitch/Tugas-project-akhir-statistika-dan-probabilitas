@@ -67,7 +67,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     bisnis startup SaaS di data ini tidak homogen dan mencerminkan perbedaan skala usaha yang cukup lebar.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
-  - <img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/5174e463-4435-4019-a0f5-bec7e8385045" />
+   <img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/5174e463-4435-4019-a0f5-bec7e8385045" />
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
   - Dari histogram terlihat bahwa data pendapatan menyebar dari nilai kecil sampai besar, dengan konsentrasi terbesar berada di sekitar nilai tengah. Walaupun rata-rata berada di tengah
     distribusi, masih terlihat adanya nilai ekstrem di sisi bawah maupun atas. Hal ini menunjukkan bahwa ada startup dengan pendapatan yang jauh lebih kecil atau jauh lebih besar
