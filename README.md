@@ -45,7 +45,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
   - Di analisis ini saya fokus ke satu variabel utama, yaitu Pendapatan_Tahunan_Miliar_IDR. Dari perhitungan yang dilakukan, didapatkan
-  - a. Mean : 31,8831846153846
+    a. Mean : 31,8831846153846
   - b. Median : 31,305
   - c. Modus : 1,87
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
