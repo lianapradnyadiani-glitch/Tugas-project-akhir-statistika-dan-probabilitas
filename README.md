@@ -65,7 +65,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     bisnis startup SaaS di data ini tidak homogen dan mencerminkan perbedaan skala usaha yang cukup lebar.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
-  -  <img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/5174e463-4435-4019-a0f5-bec7e8385045" />
+     <img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/5174e463-4435-4019-a0f5-bec7e8385045" />
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
   - Dari histogram terlihat bahwa data pendapatan menyebar dari nilai kecil sampai besar, dengan konsentrasi terbesar berada di sekitar nilai tengah. Walaupun rata-rata berada di tengah
     distribusi, masih terlihat adanya nilai ekstrem di sisi bawah maupun atas. Hal ini menunjukkan bahwa ada startup dengan pendapatan yang jauh lebih kecil atau jauh lebih besar
@@ -81,32 +81,59 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     yang tidak simetris dan mungkin dipengaruhi sama nilai-nilai ekstrem.
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-  - <img width="1366" height="768" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/b5e1c2f9-62eb-40e2-9556-73d7350943d3" />
+   <img width="1366" height="768" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/b5e1c2f9-62eb-40e2-9556-73d7350943d3" />
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
   - Di Q-Q plot kelihatan kalau titik-titiknya tidak nempel di garis lurus, apalagi di bagian ujung grafik. Penyimpangan ini nunjukin kalau data punya pola yang beda dari distribusi
     normal. Hasil ini makin nguatkan kalau data pendapatan tahunan memang tidak normal, sesuai sama hasil uji Shapiro-Wilk sebelumnya
 
 ### 5.3. Analisis Korelasi
 - **Nilai Koefisien Korelasi:**
-  - *Nilai r...*
+  - Nilai r = 0,996
   - *Interpretasi:* Seberapa kuat dan apa arah hubungan antara dua variabel yang Anda uji? (misalnya, korelasi positif kuat, negatif lemah, atau tidak ada korelasi).
+  - Nilai korelasi sebesar 0,996 itu menunjukan kalau hubungan antara pendapatan tahunan dan biaya akuisisi pelanggan itu positif dan sangat kuat. Artinya, kalau pendapatan startup
+    makin besar, biasanya biaya yang dikeluarin buat dapetin pelanggan juga ikut naik. Hubungan yang kuat ini masuk akal, karena startup yang skala bisnisnya besar biasanya butuh
+    strategi pemasaran yang lebih intens dan biaya yang lebih tinggi juga.
 - **Visualisasi (Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+    <img width="1366" height="768" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/53bf7e9a-8020-4b14-a2f4-aac9b59506a9" />
   - *Interpretasi:* Apakah pola pada scatter plot mendukung hasil koefisien korelasi?
+  - Dari scatter plot, kelihatan pola titik yang naik dari kiri ke kanan dan cukup rapat ngikutin garis tren. Ini menunjukan kalau hubungan kedua variabel itu konsisten dan cenderung
+    linear. Jadi, secara visual juga bisa dilihat kalau data mendukung hasil korelasi yang bilang kalau hubungan keduanya memang kuat.
 
 ### 5.4. Analisis Regresi
 - **Model Regresi:**
   - *Persamaan regresi: Y = b0 + b1*X*
+    - b0 (intercept) = 1,37
+    - b1 (slope) = 1,01
+    - Y = 1,37 + 1,01X, dengan Y = Pendapatan_Tahunan_Miliar_IDR dan X = Biaya_Akuisisi_Pelanggan_Juta_IDR
   - *Interpretasi:* Jelaskan arti dari koefisien intercept (b0) dan slope (b1) dalam konteks data Anda.
+  - Dari persamaan regresi di atas, nilai intercept sebesar 1,37 bisa diartikan sebagai perkiraan pendapatan tahunan startup ketika biaya akuisisi pelanggan bernilai nol. Walaupun
+    kondisi ini jarang terjadi di dunia nyata, nilai tersebut tetap bisa dianggap sebagai titik awal model. Sementara itu, nilai slope sebesar 1,01 menunjukkan bahwa setiap kenaikan
+    biaya akuisisi pelanggan sebesar 1 juta rupiah diperkirakan akan diikuti kenaikan pendapatan tahunan sekitar 1,01 miliar rupiah. Koefisien yang bernilai positif ini menandakan bahwa
+    hubungan antara biaya akuisisi dan pendapatan bersifat searah, yaitu semakin besar biaya yang dikeluarkan untuk mendapatkan pelanggan, maka pendapatan startup juga cenderung
+    meningkat.
 - **Evaluasi Model (R-squared):**
-  - *Nilai R-squared...*
+  - Nilai R-squared = 0,991 atau 99,1%
   - *Interpretasi:* Berapa persen variasi dari variabel dependen yang dapat dijelaskan oleh model regresi Anda?
+  - Nilai R-squared sebesar 0,991 berarti sekitar 99,1% variasi pada Pendapatan_Tahunan_Miliar_IDR dapat dijelaskan oleh variabel Biaya_Akuisisi_Pelanggan_Juta_IDR dalam model regresi
+    ini. Angka ini tergolong sangat tinggi, sehingga bisa dikatakan bahwa model memiliki kemampuan yang sangat baik dalam menjelaskan hubungan antara kedua variabel. Dengan kata lain,
+    perubahan pendapatan tahunan startup dalam dataset ini sebagian besar dipengaruhi oleh perubahan biaya akuisisi pelanggan, sementara sisanya yang kecil dipengaruhi oleh faktor lain
+    diluar model.
 - **Visualisasi (Garis Regresi pada Scatter Plot):**
   - *Sematkan gambar plot dari folder /results...*
+    <img width="1366" height="768" alt="Screenshot (130)" src="https://github.com/user-attachments/assets/2334dee1-5cb5-4fb0-9822-be5a7af7dcf9" />
   - *Interpretasi:* Jelaskan bagaimana garis regresi merepresentasikan hubungan antara variabel.
+  - Pada scatter plot terlihat bahwa garis regresi membentuk garis lurus yang menanjak dan berada sangat dekat dengan titik-titik data. Ini menunjukkan bahwa hubungan antara biaya
+    akuisisi pelanggan dan pendapatan tahunan bersifat linear dan cukup konsisten. Sebagian besar titik yang menempel di sekitar garis regresi menandakan bahwa prediksi model cukup
+    akurat dan kesalahannya relatif kecil. Secara keseluruhan, garis regresi ini merepresentasikan dengan baik bahwa semakin besar biaya akuisisi pelanggan yang dikeluarkan startup,
+    maka pendapatan tahunan yang diperoleh juga cenderung semakin besar.
 
 ---
 
 ## 6. Kesimpulan
 
 Rangkum temuan utama dari analisis Anda dalam beberapa kalimat. Apa wawasan paling penting yang Anda peroleh?
+- Dari seluruh analisis yang sudah saya lakukan, saya menemukan kalau pendapatan tahunan startup SaaS di data ini cukup beragam dan sebarannya tidak normal. Saya juga menemukan kalau
+  hubungan antara biaya akuisisi pelanggan dan pendapatan itu positif dan sangat kuat. Lewat model regresi, terlihat bahwa biaya akuisisi pelanggan punya pengaruh besar terhadap naik
+  turunnya pendapatan startup. Wawasan paling penting yang saya dapat adalah bahwa semakin besar biaya yang dikeluarkan untuk mendapatkan pelanggan, biasanya pendapatan startup juga
+  ikut meningkat. Jadi, menurut saya, strategi dalam mengatur biaya akuisisi pelanggan itu penting banget karena sangat berpengaruh ke perkembangan dan skala bisnis startup SaaS.
