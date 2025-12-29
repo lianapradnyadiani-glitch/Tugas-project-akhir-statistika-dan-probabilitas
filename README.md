@@ -73,7 +73,6 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 
 ### 5.2. Uji Normalitas
 - **Hasil Uji Shapiro-Wilk:**
-  - *Nilai p-value...*
   - Nilai p-value = 1,497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
   - Nilai p-value yang jauh di bawah 0,05 menunjukan kalau data pendapatan tahunan tidak berdistribusi normal. Dengan kata lain, pola datanya tidak ngikutin bentuk lonceng yang ideal.
