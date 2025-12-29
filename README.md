@@ -45,9 +45,9 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Pemusatan (Mean, Median, Modus):**
   - *Tabel atau ringkasan...*
   - Di analisis ini saya fokus ke satu variabel utama, yaitu Pendapatan_Tahunan_Miliar_IDR. Dari perhitungan yang dilakukan, didapatkan
-    a. Mean : 31,8831846153846
-    b. Median : 31,305
-    c. Modus : 1,87
+    - a. Mean : 31,8831846153846
+    - b. Median : 31,305
+    - c. Modus : 1,87
   - *Interpretasi:* Jelaskan apa arti dari nilai-nilai tersebut terkait dengan data Anda.
   - Dari hasil perhitungan, rata-rata pendapatan tahunan startup SaaS berada di angka 31,8831846153846. Ini gambaran umum seberapa besar skala bisnis startup dalam dataset. Nilai median
     sebesar 31,305 yang hampir sama dengan mean menunjukkan bahwa data pendapatan cukup seimbang dan tidak terlalu condong ke satu sisi. Namun, nilai modus yang hanya 1,87 menunjukkan
@@ -57,9 +57,9 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Ukuran Sebaran (Standar Deviasi, Range, Kuartil):**
   - *Tabel atau ringkasan...*
   - Hasil ukuran sebaran untuk Pendapatan_Tahunan_Miliar_IDR adalah:
-    a. Standar deviasi : 19,79
-    b. Range : 65,89
-    c. Kuartil : Min = 1,00, Q1 = 14,31, Median = 31,305, Mean = 31,8831846153846, Q3 = 49,04, Max = 66,89
+    - a. Standar deviasi : 19,79
+    - b. Range : 65,89
+    - c. Kuartil : Min = 1,00, Q1 = 14,31, Median = 31,305, Mean = 31,8831846153846, Q3 = 49,04, Max = 66,89
   - *Interpretasi:* Jelaskan seberapa menyebar data Anda berdasarkan nilai-nilai ini.
   - Nilai standar deviasi sebesar 19,79 menunjukkan bahwa pendapatan antar startup cukup bervariasi dan tidak berkumpul di sekitar nilai rata-rata saja. Range yang mencapai 65,89
     memperlihatkan adanya selisih yang jauh antara startup dengan pendapatan terendah dan tertinggi. Dari nilai kuartil terlihat bahwa sekitar 25% startup memiliki pendapatan di bawah
@@ -67,7 +67,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
     bisnis startup SaaS di data ini tidak homogen dan mencerminkan perbedaan skala usaha yang cukup lebar.
 - **Visualisasi (Histogram/Boxplot):**
   - *Sematkan gambar plot dari folder /results...*
-   <img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/5174e463-4435-4019-a0f5-bec7e8385045" />
+  -  <img width="1366" height="768" alt="Screenshot (126)" src="https://github.com/user-attachments/assets/5174e463-4435-4019-a0f5-bec7e8385045" />
   - *Interpretasi:* Jelaskan wawasan apa yang Anda dapatkan dari bentuk distribusi data.
   - Dari histogram terlihat bahwa data pendapatan menyebar dari nilai kecil sampai besar, dengan konsentrasi terbesar berada di sekitar nilai tengah. Walaupun rata-rata berada di tengah
     distribusi, masih terlihat adanya nilai ekstrem di sisi bawah maupun atas. Hal ini menunjukkan bahwa ada startup dengan pendapatan yang jauh lebih kecil atau jauh lebih besar
