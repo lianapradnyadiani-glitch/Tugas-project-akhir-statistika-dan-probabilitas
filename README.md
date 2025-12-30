@@ -72,6 +72,7 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
 - **Hasil Uji Shapiro-Wilk:**
   - Nilai p-value = 1,497e-14
   - *Interpretasi:* Apakah data Anda terdistribusi normal berdasarkan hasil uji? Apa implikasinya?
+    
     - Berdasarkan nilai p-value yang jauh lebih kecil dari 0,05, dapat disimpulkan bahwa data Pendapatan_Tahunan_Miliar_IDR tidak berdistribusi normal. Hal ini berarti data tidak
       memenuhi asumsi normalitas. Implikasinya, hasil analisis yang mengasumsikan distribusi normal perlu diinterpretasikan dengan hati-hati, serta menunjukkan bahwa data pendapatan
       memiliki pola sebaran yang tidak simetris dan dipengaruhi oleh nilai-nilai ekstrem.
