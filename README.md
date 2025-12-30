@@ -77,7 +77,6 @@ Di bagian ini, mahasiswa diharapkan untuk menyajikan dan menginterpretasikan has
       memiliki pola sebaran yang tidak simetris dan dipengaruhi oleh nilai-nilai ekstrem.
 - **Plot Q-Q:**
   - *Sematkan gambar plot dari folder /results...*
-   <img width="1366" height="768" alt="Screenshot (128)" src="https://github.com/user-attachments/assets/b5e1c2f9-62eb-40e2-9556-73d7350943d3" />
   - *Interpretasi:* Apakah titik-titik data mengikuti garis lurus? Apa artinya?
     - Pada Q-Q plot terlihat bahwa titik-titik data tidak sepenuhnya mengikuti garis lurus, terutama pada bagian awal dan akhir grafik.
       Penyimpangan ini menunjukkan adanya perbedaan antara distribusi data aktual dengan distribusi normal teoritis. Dengan demikian,
